@@ -270,7 +270,7 @@ CREATE TABLE `lead` (
 --
 
 INSERT INTO `lead` (`_id`, `_name`, `_phone`, `_email`) VALUES
-(1, 'Саган Олександр', '0966570057', 'mortar5900@gmail.com');
+(1, 'admin', '0111111111', 'example32@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -330,7 +330,7 @@ CREATE TABLE `seller` (
 --
 
 INSERT INTO `seller` (`_id`, `_shop`, `_name`, `_phone`, `_email`) VALUES
-(1, 1, 'Іванов Іван', '0930587285', 'John_McJohnson@gmail.com');
+(1, 1, 'Іванов Іван', '0933333333', 'John_McJohnson@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -374,9 +374,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`_id`, `_name`, `_phone`, `_email`, `_pass`) VALUES
 (1, 'sdfsdsd', '222333', 'post1@email', '7d0511fe4c8b94cc692173e526167d7f'),
-(2, 'sdfdsfd', '5555555555', 'rtb@email', '7d0511fe4c8b94cc692173e526167d7f'),
-(3, 'example@email', '222', 'example@email', '7d0511fe4c8b94cc692173e526167d7f'),
-(4, 'Саган Олександр', '0966570057', 'mortar5900@gmail.com', '7d0511fe4c8b94cc692173e526167d7f');
+(2, 'admin', '0111111111', 'example32@gmail.com', '7d0511fe4c8b94cc692173e526167d7f');
 
 --
 -- Индексы сохранённых таблиц
